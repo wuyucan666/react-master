@@ -1,0 +1,17 @@
+[{
+  "path": "/market",
+  "name": "market",
+  "icon": "file-text",
+  "order": 6,
+  "routes": [{
+      "path": "/market/performance",
+      "component": "./Market/routes/performance",
+      "name": "performance"
+    },
+    {
+      "path": "/market/royalty",
+      "component": "./Market/routes/royalty",
+      "name": "royalty"
+    }
+  ]
+}]

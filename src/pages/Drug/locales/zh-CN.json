@@ -1,0 +1,21 @@
+{
+  "menu.drug": "药品管理",
+  "menu.drug.sku": "SKU库",
+  "menu.drug.sku.skuList": "SKU库",
+  "menu.drug.sku.skuList.create": "新建SKU",
+  "menu.drug.sku.skuList.info": "SKU详情",
+  "menu.drug.sku.skuList.deleteList": "已删除的SKU",
+  "menu.drug.sku.skuList.deleteList.info": "SKU详情",
+  "menu.drug.supply": "供货管理",
+  "menu.drug.supply.supplyList": "供货管理",
+  "menu.drug.supply.supplyList.supplyDeleteList": "已删除的供货商",
+  "menu.drug.supply.supplyList.supplyDeleteList.supplyInfoList": "供货商详情",
+  "menu.drug.supply.supplyList.supplyInfoList": "供货商详情",
+  "menu.drug.supply.supplyList.supplyOrder": "供货商订单",
+  "menu.drug.supply.supplyList.supplyOrder.account": "订单对账",
+  "menu.drug.supply.supplyList.supplyOrder.info": "订单详情",
+  "menu.drug.supply.supplyList.supplyOrder.info.logistics": "物流详情",
+  "menu.drug.up": "上架管理",
+  "menu.drug.up.upList": "上架管理",
+  "menu.drug.up.upList.upInfoList": "单品上架配置"
+}

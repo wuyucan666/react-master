@@ -1,0 +1,9 @@
+{
+  "menu.order": "订单管理",
+  "menu.order.list": "订单列表",
+  "menu.order.list.detail": "平台订单详情",
+  "menu.order.list.detail.logistics": "物流详情",
+  "menu.order.account": "订单对账",
+  "menu.order.settlement": "结算记录",
+  "menu.order.refund": "退款记录"
+}

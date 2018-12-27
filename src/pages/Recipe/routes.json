@@ -1,0 +1,18 @@
+[{
+  "path": "/recipe",
+  "name": "recipe",
+  "icon": "file-protect",
+  "order": 4,
+  "routes": [{
+      "path": "/recipe/list",
+      "component": "./Recipe/routes/recipeList",
+      "name": "recipelist"
+    },
+    {
+      "path": "/recipe/list/detail/:id",
+      "component": "./Recipe/routes/recipelistDetail",
+      "name": "recipelistdetail",
+      "hideInMenu": true
+    }
+  ]
+}]

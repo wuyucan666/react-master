@@ -1,0 +1,97 @@
+[
+  {
+    "path": "/drug",
+    "name": "drug",
+    "icon": "medicine-box",
+    "order": 3,
+    "routes": [
+      {
+        "path": "/drug/sku/skuList",
+        "component": "./Drug/routes/skuList",
+        "name": "sku.skuList"
+      },
+      {
+        "path": "/drug/sku/skuList/skuCreate",
+        "component": "./Drug/routes/skuCreate",
+        "name": "sku.skuList.create",
+        "hideInMenu": true
+      },
+      {
+        "path": "/drug/sku/skuList/skuInfo",
+        "component": "./Drug/routes/skuInfo",
+        "name": "sku.skuList.info",
+        "hideInMenu": true
+      },
+      {
+        "path": "/drug/sku/skuList/skuDeleteList",
+        "component": "./Drug/routes/skuDeleteList",
+        "name": "sku.skuList.deleteList",
+        "hideInMenu": true
+      },
+      {
+        "path": "/drug/sku/skuList/skuDeleteList/skuInfo",
+        "component": "./Drug/routes/skuInfo",
+        "name": "sku.skuList.deleteList.info",
+        "hideInMenu": true
+      },
+      {
+        "path": "/drug/supply/supplyList",
+        "component": "./Drug/routes/supplyList",
+        "name": "supply.supplyList"
+      },
+      {
+        "path": "/drug/supply/supplyList/supplyDeleteList",
+        "component": "./Drug/routes/supplyDeleteList",
+        "name": "supply.supplyList.supplyDeleteList",
+        "hideInMenu": true
+      },
+      {
+        "path": "/drug/supply/supplyList/supplyDeleteList/supplyInfoList",
+        "component": "./Drug/routes/supplyInfoList",
+        "name": "supply.supplyList.supplyDeleteList.supplyInfoList",
+        "hideInMenu": true
+      },
+      {
+        "path": "/drug/supply/supplyList/supplyInfoList",
+        "component": "./Drug/routes/supplyInfoList",
+        "name": "supply.supplyList.supplyInfoList",
+        "hideInMenu": true
+      },
+      {
+        "path": "/drug/supply/supplyList/supplyOrder",
+        "component": "./Drug/routes/supplyOrderList",
+        "name": "supply.supplyList.supplyOrder",
+        "hideInMenu": true
+      },
+      {
+        "path": "/drug/supply/supplyList/supplyOrder/account",
+        "component": "./Drug/routes/supplyOrderAccount",
+        "name": "supply.supplyList.supplyOrder.account",
+        "hideInMenu": true
+      },
+      {
+        "path": "/drug/supply/supplyList/supplyOrder/info",
+        "component": "./Drug/routes/supplyOrderInfo",
+        "name": "supply.supplyList.supplyOrder.info",
+        "hideInMenu": true
+      },
+      {
+        "path": "/drug/supply/supplyList/supplyOrder/info/logistics",
+        "component": "./Drug/routes/suppplyOrderLogistics",
+        "name": "supply.supplyList.supplyOrder.info.logistics",
+        "hideInMenu": true
+      },
+      {
+        "path": "/drug/up/upList",
+        "component": "./Drug/routes/upList",
+        "name": "up.upList"
+      },
+      {
+        "path": "/drug/up/upList/upInfoList",
+        "component": "./Drug/routes/upInfoList",
+        "name": "up.upList.upInfoList",
+        "hideInMenu": true
+      }
+    ]
+  }
+]

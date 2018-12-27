@@ -1,0 +1,51 @@
+@import '~antd/lib/style/themes/default.less';
+
+.selected {
+  background-color: #e6f7ff !important;
+}
+
+.listGroup {
+  padding-left: 0;
+  a:hover {
+    color: unset;
+    background-color: #f6f6f6 !important;
+    .hoverAction {
+      display: block;
+    }
+  }
+}
+
+.listGroupItem {
+  color: rgb(85, 85, 85);
+  user-select: none;
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  border: 1px solid #dee5e7;
+  text-decoration: none;
+  cursor: unset;
+}
+
+.scrollYHidden {
+  position: relative;
+  width: 100%;
+  min-height: 100px;
+  padding: 0;
+  overflow: hidden;
+  > div {
+    position: absolute;
+    width: 110%;
+    min-height: 100px;
+    overflow-y: scroll;
+  }
+}
+
+.hoverAction {
+  float: right !important;
+  font-size: 24px;
+  padding-right: 5%;
+  display: none;
+  cursor: pointer;
+}
+

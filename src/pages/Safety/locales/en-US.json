@@ -1,0 +1,8 @@
+{
+  "menu.safety": "Authorization",
+  "menu.safety.users": "User",
+  "menu.safety.users.create": "分配角色",
+  "menu.safety.users.info": "用户详情",
+  "menu.safety.roles": "Role",
+  "menu.safety.resources": "Resources"
+}

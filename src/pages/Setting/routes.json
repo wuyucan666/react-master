@@ -1,0 +1,16 @@
+[
+  {
+    "path": "/setting",
+    "name": "setting",
+    "icon": "setting",
+    "order": 101,
+    "hideInMenu": true,
+    "routes": [
+      {
+        "path": "/setting/config",
+        "component": "./Setting/routes/config",
+        "name": "config"
+      }
+    ]
+  }
+]

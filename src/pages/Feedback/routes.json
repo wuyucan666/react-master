@@ -1,0 +1,21 @@
+[
+  {
+    "path": "/feedback",
+    "name": "feedback",
+    "icon": "customer-service",
+    "order": 6,
+    "routes": [
+      {
+        "path": "/feedback/feedbackList",
+        "component": "./Feedback/routes/feedbackList",
+        "name": "feedbackList"
+      },
+      {
+        "path": "/feedback/feedbackList/feedbackDetail",
+        "component": "./Feedback/routes/feedbackDetail",
+        "name": "feedbackDetail",
+        "hideInMenu": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "menu.safety": "权限管理",
+  "menu.safety.users": "用户管理",
+  "menu.safety.users.create": "分配角色",
+  "menu.safety.users.info": "用户详情",
+  "menu.safety.roles": "角色管理",
+  "menu.safety.resources": "资源管理"
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "path": "/content",
+    "name": "content",
+    "icon": "book",
+    "order": 2,
+    "routes": [
+      {
+        "path": "/content/knowledge-card",
+        "component": "./Content/routes/KnowledgeCardList",
+        "name": "knowledge-card"
+      },
+      {
+        "path": "/content/tag",
+        "component": "./Content/routes/TagList",
+        "name": "tag"
+      }
+    ]
+  }
+]

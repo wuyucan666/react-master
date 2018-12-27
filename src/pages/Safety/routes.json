@@ -1,0 +1,38 @@
+[
+  {
+    "path": "/safety",
+    "name": "safety",
+    "icon": "safety",
+    "order": 100,
+    "hideInMenu": true,
+    "routes": [
+      {
+        "path": "/safety/users",
+        "component": "./Safety/routes/users",
+        "name": "users"
+      },
+      {
+        "path": "/safety/users/create",
+        "component": "./Safety/routes/userCreate",
+        "name": "users.create",
+        "hideInMenu": true
+      },
+      {
+        "path": "/safety/users/info",
+        "component": "./Safety/routes/userInfo",
+        "name": "users.info",
+        "hideInMenu": true
+      },
+      {
+        "path": "/safety/roles",
+        "component": "./Safety/routes/roles",
+        "name": "roles"
+      },
+      {
+        "path": "/safety/resources",
+        "component": "./Safety/routes/resources",
+        "name": "resources"
+      }
+    ]
+  }
+]

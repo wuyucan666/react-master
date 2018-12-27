@@ -1,0 +1,39 @@
+[{
+  "path": "/order",
+  "name": "order",
+  "icon": "file-text",
+  "order": 5,
+  "routes": [{
+      "path": "/order/list",
+      "component": "./Order/routes/orderList",
+      "name": "list"
+    },
+    {
+      "path": "/order/list/detail/:id",
+      "component": "./Order/routes/orderDetail",
+      "name": "list.detail",
+      "hideInMenu": true
+    },
+    {
+      "path": "/order/list/detail/logistics",
+      "component": "./Order/routes/logistics",
+      "name": "list.detail.logistics",
+      "hideInMenu": true
+    },
+    {
+      "path": "/order/account",
+      "component": "./Order/routes/accountList",
+      "name": "account"
+    },
+    {
+      "path": "/order/settlement",
+      "component": "./Order/routes/SettlementRecord",
+      "name": "settlement"
+    },
+    {
+      "path": "/order/refund",
+      "component": "./Order/routes/RefundRecord",
+      "name": "refund"
+    }
+  ]
+}]

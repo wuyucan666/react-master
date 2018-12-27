@@ -1,0 +1,11 @@
+[{
+  "path": "/account",
+  "name": "account",
+  "icon": "user",
+  "order": 7,
+  "routes": [{
+    "path": "/account/settings",
+    "component": "./Account/routes/Settings",
+    "name": "settings"
+  }]
+}]

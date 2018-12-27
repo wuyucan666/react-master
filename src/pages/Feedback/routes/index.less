@@ -1,0 +1,31 @@
+@import '~antd/lib/style/themes/default.less';
+@import '../../../utils/utils.less';
+
+.tableList {
+  margin-top: 30px;
+}
+
+.term {
+  // Line-height is 22px IE dom height will calculate error
+  line-height: 20px;
+  padding-bottom: 20px;
+  margin-right: 8px;
+  color: @heading-color;
+  white-space: nowrap;
+  display: table-cell;
+
+  &:after {
+    content: '：';
+    margin: 0 8px 0 2px;
+    position: relative;
+    top: -0.5px;
+  }
+}
+
+.detail {
+  line-height: 22px;
+  width: 100%;
+  padding-bottom: 20px;
+  color: @text-color;
+  display: table-cell;
+}
